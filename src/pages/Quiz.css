@@ -1,0 +1,156 @@
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  padding: 20px;
+}
+
+/* Header */
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.event-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00ffff;
+}
+
+.status-bar {
+  display: flex;
+  gap: 30px;
+  font-size: 1rem;
+  color: #ffcc00;
+}
+
+/* Main layout */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  height: 100%;
+}
+
+/* Question box */
+.question-section {
+  width: 65%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ffff;
+}
+
+.question-box h2 {
+  margin-bottom: 20px;
+}
+
+.options-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.options-column button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffff;
+  transition: transform 0.2s ease;
+}
+
+.options-column button:hover {
+  transform: scale(1.05);
+}
+
+.options-column button:disabled {
+  background-color: #555;
+  color: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Power cards */
+.power-section {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ff00ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.power-section h4 {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #ff00ff;
+}
+
+.power-section button {
+  width: 80%;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #ff00ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff00ff;
+  transition: transform 0.2s ease;
+}
+
+.power-section button:hover {
+  transform: scale(1.05);
+}
+
+.power-section button:disabled {
+  background-color: #333;
+  color: #aaa;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+.power-section button.glow {
+  box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+  transform: scale(1.05);
+}
+
+/* Progress bar */
+.progress-bar-container {
+  width: 100%;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(to right, #00ffff, #ff00ff);
+  width: 0%;
+  transition: width 0.5s ease;
+  box-shadow: 0 0 20px #00ffff;
+}
+
+/* Hint text */
+.hint {
+  margin-top: 10px;
+  font-style: italic;
+  color: #ffcc00;
+}

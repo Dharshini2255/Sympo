@@ -1,0 +1,42 @@
+.question-box {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.options-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.options-column button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffff;
+  transition: transform 0.2s ease;
+}
+
+.options-column button:hover {
+  transform: scale(1.05);
+}
+
+.options-column button:disabled {
+  background-color: #555;
+  color: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.hint {
+  margin-top: 10px;
+  font-style: italic;
+  color: #ffcc00;
+}

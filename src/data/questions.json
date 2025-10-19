@@ -1,0 +1,296 @@
+[
+  {
+    "text": "You need to find the fastest route from your current location to every other bus stop in a town with known travel times.",
+    "options": ["Dijkstra’s Algorithm", "DFS", "BFS", "Kruskal’s Algorithm", "Merge Sort"],
+    "answer": "Dijkstra’s Algorithm",
+    "hint": "Best for single-source shortest paths with weights."
+  },
+  {
+    "text": "You want to connect multiple villages with water pipelines at the minimum possible total cost.",
+    "options": ["Prim’s Algorithm", "Bubble Sort", "DFS", "Linear Search", "Floyd-Warshall"],
+    "answer": "Prim’s Algorithm",
+    "hint": "Builds minimum spanning tree by expanding from one node."
+  },
+  {
+    "text": "You're packing a bag with items of different weights and values to maximize total value without exceeding capacity.",
+    "options": ["Fractional Knapsack", "Merge Sort", "Job Sequencing", "DFS", "Counting Sort"],
+    "answer": "Fractional Knapsack",
+    "hint": "Allows taking parts of items for best value-to-weight ratio."
+  },
+  {
+    "text": "You need to check if you can schedule multiple meetings in a single room without overlap.",
+    "options": ["Activity Selection", "BFS", "Bellman-Ford", "Heap Sort", "DFS"],
+    "answer": "Activity Selection",
+    "hint": "Pick tasks sorted by earliest finishing time."
+  },
+  {
+    "text": "You need to repeatedly remove the highest scorer in a game leaderboard efficiently.",
+    "options": ["Max Heap", "Queue", "Linked List", "DFS", "Linear Array"],
+    "answer": "Max Heap",
+    "hint": "Fastest way to fetch highest element repeatedly."
+  },
+  {
+    "text": "You need to group your phone contacts so that all names with the same starting letter stay together.",
+    "options": ["Hash Table", "Binary Search Tree", "DFS", "Stack", "Queue"],
+    "answer": "Hash Table",
+    "hint": "Best for organizing data via key-based grouping."
+  },
+  {
+    "text": "You’re exploring all possible moves in a maze to check if you can reach the exit from the entrance.",
+    "options": ["BFS", "Quick Sort", "Merge Sort", "Kruskal’s Algorithm", "Heap Sort"],
+    "answer": "BFS",
+    "hint": "Searches level by level to find shortest path."
+  },
+  {
+    "text": "You want to compress a long text by replacing frequent patterns with shorter codes.",
+    "options": ["Huffman Coding", "DFS", "Bubble Sort", "Dijkstra", "AVL Tree"],
+    "answer": "Huffman Coding",
+    "hint": "Optimal prefix-free compression technique."
+  },
+  {
+    "text": "You want to detect if someone in your social network is part of a mutual connection circle.",
+    "options": ["Union-Find", "Bubble Sort", "Floyd-Warshall", "Linear Search", "Queue"],
+    "answer": "Union-Find",
+    "hint": "Efficient for checking if two nodes are connected."
+  },
+  {
+    "text": "You’re comparing two documents to see how similar they are word by word.",
+    "options": ["Dynamic Programming (LCS)", "Binary Search", "DFS", "Heap Sort", "Bit Masking"],
+    "answer": "Dynamic Programming (LCS)",
+    "hint": "Finds longest matching subsequence between strings."
+  },
+  {
+    "text": "You're breaking down a number into prime factors efficiently.",
+    "options": ["Sieve of Eratosthenes", "Merge Sort", "Queue", "Binary Tree", "DFS"],
+    "answer": "Sieve of Eratosthenes",
+    "hint": "Precomputes primes efficiently using elimination."
+  },
+  {
+    "text": "You want to find the shortest route between every pair of cities on a road map.",
+    "options": ["Floyd-Warshall", "DFS", "Binary Search", "Greedy Coloring", "Selection Sort"],
+    "answer": "Floyd-Warshall",
+    "hint": "All-pairs shortest path algorithm."
+  },
+  {
+    "text": "You're trying different ingredient combinations in a recipe to find the best taste.",
+    "options": ["Backtracking", "Merge Sort", "DFS", "Kruskal", "Counting Sort"],
+    "answer": "Backtracking",
+    "hint": "Tries all combinations and undoes wrong ones."
+  },
+  {
+    "text": "You want to autocomplete words as you type in a search bar.",
+    "options": ["Trie", "Stack", "Queue", "Linked List", "DFS"],
+    "answer": "Trie",
+    "hint": "Stores words by shared prefixes."
+  },
+  {
+    "text": "You want to schedule non-overlapping exams for students such that no two conflicting exams happen at the same time.",
+    "options": ["Graph Coloring", "Bubble Sort", "DFS", "Queue", "Greedy Knapsack"],
+    "answer": "Graph Coloring",
+    "hint": "Assign different colors to adjacent nodes."
+  },
+  {
+    "text": "You need to repeatedly get the cheapest flight option from a bookings list.",
+    "options": ["Min Heap", "DFS", "Stack", "Hash Table", "Priority Queue"],
+    "answer": "Min Heap",
+    "hint": "Gives smallest element efficiently."
+  },
+  {
+    "text": "You're checking if a sequence of brackets in code is balanced.",
+    "options": ["Stack", "Queue", "Heap", "Trie", "Merge Sort"],
+    "answer": "Stack",
+    "hint": "Keeps track of last opened symbol."
+  },
+  {
+    "text": "You’re undoing operations in a text editor one by one.",
+    "options": ["Stack", "Queue", "Binary Search", "Heap", "Graph"],
+    "answer": "Stack",
+    "hint": "LIFO structure ideal for undo actions."
+  },
+  {
+    "text": "You want to generate all possible passwords from a set of characters.",
+    "options": ["Recursion", "Hashing", "Binary Search", "Greedy", "Queue"],
+    "answer": "Recursion",
+    "hint": "Repeats calls with smaller inputs."
+  },
+  {
+    "text": "You need to check if a word exists inside a huge dictionary quickly.",
+    "options": ["Binary Search", "Bubble Sort", "DFS", "Queue", "Backtracking"],
+    "answer": "Binary Search",
+    "hint": "Works only when data is sorted."
+  },
+  {
+    "text": "You need to assign different WiFi frequencies to nearby routers so they don’t interfere with each other.",
+    "options": ["Graph Coloring", "DFS", "Bubble Sort", "Dijkstra", "Binary Search"],
+    "answer": "Graph Coloring",
+    "hint": "Ensures adjacent nodes don’t share the same color."
+  },
+  {
+    "text": "You want to compress repeating characters in a string like 'aaabbcccc' into 'a3b2c4'.",
+    "options": ["Run-Length Encoding", "Huffman Coding", "Merge Sort", "Stack", "Queue"],
+    "answer": "Run-Length Encoding",
+    "hint": "Best when characters repeat consecutively."
+  },
+  {
+    "text": "You need to check if a given word can be made by rearranging the letters of another.",
+    "options": ["Anagram Check using Sorting", "DFS", "Queue", "Binary Tree", "Knapsack"],
+    "answer": "Anagram Check using Sorting",
+    "hint": "Sort both and compare."
+  },
+  {
+    "text": "You want to suggest friends to a user based on mutual connections.",
+    "options": ["Breadth-First Search (BFS)", "Quick Sort", "Linear Search", "Bellman-Ford", "Stack"],
+    "answer": "Breadth-First Search (BFS)",
+    "hint": "Expands level by level from each friend."
+  },
+  {
+    "text": "You are allocating time slots to jobs that must be completed before their deadlines to get max profit.",
+    "options": ["Job Sequencing with Deadlines", "Merge Sort", "DFS", "Counting Sort", "Prim’s Algorithm"],
+    "answer": "Job Sequencing with Deadlines",
+    "hint": "Greedy scheduling based on deadlines."
+  },
+  {
+    "text": "You want to find the most frequently searched keyword from millions of searches.",
+    "options": ["Hash Map Counting", "Binary Search", "Queue", "DFS", "Bubble Sort"],
+    "answer": "Hash Map Counting",
+    "hint": "Stores frequencies using key-value pairs."
+  },
+  {
+    "text": "You want to rank students based on their scores efficiently.",
+    "options": ["Quick Sort", "DFS", "Linear Search", "Queue", "Binary Tree"],
+    "answer": "Quick Sort",
+    "hint": "Efficient average-case sorting via partitioning."
+  },
+  {
+    "text": "You want to simulate a line of people at a ticket counter where the first person gets served first.",
+    "options": ["Queue", "Stack", "Heap", "Trie", "Binary Search"],
+    "answer": "Queue",
+    "hint": "Follows First-In-First-Out rule."
+  },
+  {
+    "text": "You want to map employee IDs to names for instant lookup.",
+    "options": ["Hash Table", "Stack", "Queue", "Heap", "Linked List"],
+    "answer": "Hash Table",
+    "hint": "Best for constant-time key lookup."
+  },
+  {
+    "text": "You want to find if a path exists between two rooms in a building layout.",
+    "options": ["Depth-First Search (DFS)", "Merge Sort", "Bubble Sort", "Counting Sort", "Greedy"],
+    "answer": "Depth-First Search (DFS)",
+    "hint": "Goes deep until it reaches goal."
+  },
+  {
+    "text": "You are checking if there is a cycle in a friendship chain.",
+    "options": ["Union-Find", "Binary Search", "Queue", "Counting Sort", "Prim’s Algorithm"],
+    "answer": "Union-Find",
+    "hint": "Efficient for detecting connected components."
+  },
+  {
+    "text": "You want to find the longest increasing pattern of stock prices.",
+    "options": ["Dynamic Programming (LIS)", "Heap", "DFS", "Bubble Sort", "Binary Search"],
+    "answer": "Dynamic Programming (LIS)",
+    "hint": "Builds solution based on previous smaller solutions."
+  },
+  {
+    "text": "You need to search for a word inside a large paragraph multiple times efficiently.",
+    "options": ["KMP String Matching", "Bubble Sort", "DFS", "Stack", "Prim’s Algorithm"],
+    "answer": "KMP String Matching",
+    "hint": "Avoids redundant character comparisons."
+  },
+  {
+    "text": "You want to track the top 10 trending videos updated every second.",
+    "options": ["Min Heap", "Queue", "Stack", "Binary Tree", "Bubble Sort"],
+    "answer": "Min Heap",
+    "hint": "Keeps smallest element at root for replacement."
+  },
+  {
+    "text": "You need to break down a big problem like calculating Fibonacci numbers into reusable subproblems.",
+    "options": ["Dynamic Programming", "Greedy", "DFS", "Heap", "Stack"],
+    "answer": "Dynamic Programming",
+    "hint": "Stores solutions to overlapping subproblems."
+  },
+  {
+    "text": "You want to find the kth smallest element from an unsorted list.",
+    "options": ["Quickselect", "Bubble Sort", "Binary Search", "Queue", "Trie"],
+    "answer": "Quickselect",
+    "hint": "Uses partition logic without full sorting."
+  },
+  {
+    "text": "You want to determine the minimum number of coins to make a given amount.",
+    "options": ["Coin Change (DP)", "Stack", "Bubble Sort", "DFS", "Queue"],
+    "answer": "Coin Change (DP)",
+    "hint": "Builds smallest solution using past results."
+  },
+  {
+    "text": "You want to build a binary decision system that splits data at each step based on thresholds.",
+    "options": ["Decision Tree", "Heap", "Queue", "Stack", "Bubble Sort"],
+    "answer": "Decision Tree",
+    "hint": "Splits data on features to classify."
+  },
+  {
+    "text": "You want to flip the order of pages in a book stack.",
+    "options": ["Stack", "Queue", "Heap", "Trie", "Binary Tree"],
+    "answer": "Stack",
+    "hint": "Best for reversing order using LIFO."
+  },
+  {
+    "text": "You want to visit all places in a theme park without repeating any and return to the start with minimum walking.",
+    "options": ["Traveling Salesman Problem", "Dijkstra", "DFS", "Queue", "Insertion Sort"],
+    "answer": "Traveling Salesman Problem",
+    "hint": "Shortest Hamiltonian cycle problem."
+  },
+  {
+    "text": "You want to check if two words like 'listen' and 'silent' are formed from the same characters.",
+    "options": ["Anagram Check using Hash Map", "Queue", "Binary Search", "DFS", "Heap"],
+    "answer": "Anagram Check using Hash Map",
+    "hint": "Count and compare character frequencies."
+  },
+  {
+    "text": "You need to allocate rooms to college courses so that no two conflicting courses occur in the same room.",
+    "options": ["Graph Coloring", "Queue", "Stack", "DFS", "Bubble Sort"],
+    "answer": "Graph Coloring",
+    "hint": "Assigns different colors to adjacent vertices."
+  },
+  {
+    "text": "You want to merge two already sorted guest lists into one final sorted list.",
+    "options": ["Two-Pointer Merge", "Bubble Sort", "DFS", "Heap", "Stack"],
+    "answer": "Two-Pointer Merge",
+    "hint": "Walks both lists simultaneously."
+  },
+  {
+    "text": "You want to schedule movie scenes so that actors are used efficiently without unnecessary breaks.",
+    "options": ["Interval Scheduling", "Binary Search", "Stack", "Queue", "Bubble Sort"],
+    "answer": "Interval Scheduling",
+    "hint": "Greedy by earliest finish time."
+  },
+  {
+    "text": "You want to find the best spot to place a security camera to cover maximum area in a graph of streets.",
+    "options": ["Articulation Point (DFS)", "Bubble Sort", "Queue", "Stack", "Counting Sort"],
+    "answer": "Articulation Point (DFS)",
+    "hint": "Finds crucial nodes whose removal disconnects graph."
+  },
+  {
+    "text": "You need to check if you can divide people into two non-fighting teams.",
+    "options": ["Bipartite Graph Check (BFS/DFS)", "Bubble Sort", "Stack", "Trie", "Hashing"],
+    "answer": "Bipartite Graph Check (BFS/DFS)",
+    "hint": "Tries coloring graph with two colors."
+  },
+  {
+    "text": "You want to rank websites based on how many other websites link to them.",
+    "options": ["PageRank (Graph Algorithm)", "Bubble Sort", "Stack", "DFS", "Greedy"],
+    "answer": "PageRank (Graph Algorithm)",
+    "hint": "Scores nodes based on incoming edges."
+  },
+  {
+    "text": "You want to reverse a queue using another data structure.",
+    "options": ["Use Stack", "Bubble Sort", "Heap", "Trie", "Binary Search"],
+    "answer": "Use Stack",
+    "hint": "Push then pop to reverse FIFO order."
+  },
+  {
+    "text": "You want to find the shortest path in a grid where all moves cost the same.",
+    "options": ["Breadth-First Search (BFS)", "DFS", "Dijkstra", "Prim’s Algorithm", "Heap Sort"],
+    "answer": "Breadth-First Search (BFS)",
+    "hint": "Best for equal-weight shortest path."
+  }
+]

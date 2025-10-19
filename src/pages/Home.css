@@ -1,0 +1,83 @@
+.home-container {
+  background-image: url('../assets/recodex-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.home-overlay {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.home-title {
+  font-size: 3rem;
+  color: #00ffff;
+  font-family: 'Orbitron', sans-serif;
+  z-index: 1;
+  margin-bottom: 50px;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.home-form-box {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  padding-right: 70px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #ff00ff;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  width: 300px;
+}
+
+.home-form-box:hover {
+  transform: scale(1.08);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  width: 100%;
+  box-shadow: 0 0 5px #00ffff;
+  background-color: #111;
+  color: white;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+button {
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #00ffff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
