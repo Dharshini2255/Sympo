@@ -35,11 +35,11 @@
     "answer": "PC",
     "hint": "Tracks execution flow."
   },
-  {
-    "text": "Which data structure uses LIFO principle?",
-    "options": ["Queue", "Stack", "Array", "Linked List"],
-    "answer": "Stack",
-    "hint": "Last in, first out"
+   {
+    "text": "Which principle of OOP promotes code reuse?",
+    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+    "answer": "Inheritance",
+    "hint": "It allows a class to acquire properties of another."
   },
   {
     "text": "Which SQL command removes a table completely?",
@@ -54,10 +54,10 @@
     "hint": "Sum letter positions with A=0."
   },
   {
-    "text": "Which neural network is best for image recognition?",
-    "options": ["RNN", "CNN", "GAN", "Transformer"],
-    "answer": "CNN",
-    "hint": "Uses filters and feature maps."
+    "text": "Which software development model is known for its sequential phases?",
+    "options": ["Agile", "Waterfall", "Scrum", "Kanban"],
+    "answer": "Waterfall",
+    "hint": "Each phase must be completed before the next begins."
   },
 
   {
@@ -66,11 +66,11 @@
     "answer": "Priority",
     "hint": "Low-priority tasks may be indefinitely delayed if high-priority ones keep arriving."
   },
-  {
-    "text": "Which SQL command is used to extract data from a database?",
-    "options": ["GET", "EXTRACT", "SELECT", "FETCH", "RETRIEVE"],
-    "answer": "SELECT",
-    "hint": "Used to query and retrieve rows from tables."
+   {
+    "text": "What does the 'def' keyword do in Python?",
+    "options": ["Defines a variable", "Defines a function", "Deletes a variable", "Declares a class"],
+    "answer": "Defines a function",
+    "hint": "It's used to create reusable blocks of code."
   },
   {
     "text": "Which Git command is used to view the history of commits?",
@@ -120,11 +120,11 @@
     "answer": "DISTINCT",
     "hint": "Used after SELECT to get only unique values."
   },
-  {
-    "text": "Which command is used in Git to check the current status of files?",
-    "options": ["git log", "git commit", "git status", "git show", "git check"],
-    "answer": "git status",
-    "hint": "Displays tracked, untracked, and staged files."
+    {
+    "text": "Which keyword is used to inherit a class in Java?",
+    "options": ["inherits", "extends", "implements", "super"],
+    "answer": "extends",
+    "hint": "It allows a subclass to use the properties of a superclass."
   },
   {
     "text": "What is RAID used for?",
@@ -144,11 +144,11 @@
     "answer": "12",
     "hint": "Post-increment happens after use; pre-increment before use."
   },
-  {
-    "text": "Which Git command is used to stage changes before committing?",
-    "options": ["git stage", "git add", "git commit", "git push"],
-    "answer": "git add",
-    "hint": "Prepares files for commit by adding them to the staging area."
+ {
+    "text": "Which memory type is volatile?",
+    "options": ["ROM", "Flash", "RAM", "SSD"],
+    "answer": "RAM",
+    "hint": "It loses data when power is off."
   },
   {
     "text": "What is the main function of dropout in deep learning?",
@@ -174,11 +174,11 @@
     "answer": "Supervised Learning",
     "hint": "Training data includes both inputs and expected outputs."
   },
-  {
-    "text": "Which Git command is used to fetch and merge changes from a remote repository?",
-    "options": ["git fetch", "git pull", "git clone", "git merge"],
-    "answer": "git pull",
-    "hint": "Combines fetch and merge in one step."
+ {
+    "text": "Which protocol is used to send emails?",
+    "options": ["HTTP", "SMTP", "FTP", "POP3"],
+    "answer": "SMTP",
+    "hint": "It's the standard protocol for email transmission."
   },
 
   {
@@ -199,11 +199,11 @@
     "answer": "False",
     "hint": "Floating point arithmetic introduces precision errors."
   },
-  {
-    "text": "Which SQL clause filters rows based on a condition?",
-    "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
-    "answer": "WHERE",
-    "hint": "Used to filter rows before grouping or aggregation."
+ {
+    "text": "Which OS concept isolates processes for security?",
+    "options": ["Multitasking", "Virtualization", "Sandboxing", "Scheduling"],
+    "answer": "Sandboxing",
+    "hint": "It restricts access to system resources."
   },
   {
     "text": "Which Git command creates a copy of a remote repository?",
@@ -217,17 +217,17 @@
     "answer": "CNN",
     "hint": "Uses filters and feature maps to detect patterns in images."
   },
-  {
-    "text": "Which SQL keyword is used to sort the result set?",
-    "options": ["GROUP BY", "ORDER BY", "SORT", "FILTER"],
-    "answer": "ORDER BY",
-    "hint": "Used to arrange rows in ascending or descending order."
+ {
+    "text": "What is the binary representation of the decimal number 10?",
+    "options": ["1010", "1100", "1001", "1111"],
+    "answer": "1010",
+    "hint": "Divide by 2 and track remainders."
   },
   {
-    "text": "Which Git command shows changes between commits?",
-    "options": ["git diff", "git log", "git status", "git show"],
-    "answer": "git diff",
-    "hint": "Displays line-by-line differences between commits or branches."
+    "text": "Which OOP concept hides internal details?",
+    "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"],
+    "answer": "Encapsulation",
+    "hint": "It wraps data and methods together."
   },
   {
     "text": "Which AI concept refers to transferring knowledge from one task to another?",
@@ -242,17 +242,17 @@
     "hint": "Changes values in existing rows."
   },
 
-  {
-    "text": "Which Git command is used to permanently delete a branch?",
-    "options": ["git remove", "git delete", "git branch -d", "git erase"],
-    "answer": "git branch -d",
-    "hint": "Used to delete a local branch safely."
+   {
+    "text": "Which SDLC phase involves coding?",
+    "options": ["Design", "Implementation", "Testing", "Maintenance"],
+    "answer": "Implementation",
+    "hint": "This is where developers write the actual code."
   },
   {
-    "text": "Which SQL clause is used to filter grouped rows?",
-    "options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
-    "answer": "HAVING",
-    "hint": "Used after GROUP BY to filter aggregated results."
+    "text": "What is the output of print(2 ** 3) in Python?",
+    "options": ["6", "8", "9", "5"],
+    "answer": "8",
+    "hint": "** is the exponentiation operator."
   },
   {
     "text": "Which AI concept refers to the ability of a model to perform well on unseen data?",
@@ -260,17 +260,17 @@
     "answer": "Generalization",
     "hint": "The model adapts beyond the training set."
   },
-  {
-    "text": "Which Git command shows the most recent commits and their hashes?",
-    "options": ["git show", "git log", "git reflog", "git status"],
-    "answer": "git log",
-    "hint": "Displays commit history with metadata."
+   {
+    "text": "Which Java keyword prevents inheritance?",
+    "options": ["static", "final", "private", "abstract"],
+    "answer": "final",
+    "hint": "It locks the class or method from being extended."
   },
-  {
-    "text": "Which SQL keyword is used to add a new row to a table?",
-    "options": ["INSERT", "UPDATE", "ADD", "APPEND"],
-    "answer": "INSERT",
-    "hint": "Adds new data into a table."
+ {
+    "text": "Which number system uses base 16?",
+    "options": ["Binary", "Decimal", "Octal", "Hexadecimal"],
+    "answer": "Hexadecimal",
+    "hint": "It includes digits 0–9 and letters A–F."
   },
   {
     "text": "Which neural network type is best suited for sequential data?",
@@ -279,10 +279,10 @@
     "hint": "Maintains memory across time steps."
   },
   {
-    "text": "Which Git command lists all branches in the repository?",
-    "options": ["git list", "git branches", "git branch", "git show-branch"],
-    "answer": "git branch",
-    "hint": "Displays all local branches."
+    "text": "Which model emphasizes rapid delivery and iteration?",
+    "options": ["Waterfall", "V-Model", "Agile", "Spiral"],
+    "answer": "Agile",
+    "hint": "It promotes flexibility and customer feedback."
   },
   {
     "text": "Which SQL command is used to remove all rows from a table but keep its structure?",
@@ -296,30 +296,29 @@
     "answer": "Unsupervised Learning",
     "hint": "No predefined output — the model finds structure."
   },
-  {
-    "text": "Which Git command is used to undo the last commit but keep changes?",
-    "options": ["git revert", "git reset --soft HEAD~1", "git undo", "git rollback"],
-    "answer": "git reset --soft HEAD~1",
-    "hint": "Removes the commit but preserves staged changes."
+   {
+    "text": "What is the output of print('Hello' + 'World')?",
+    "options": ["Hello World", "HelloWorld", "Hello+World", "Error"],
+    "answer": "HelloWorld",
+    "hint": "The + operator concatenates strings."
   },
-
-  {
-    "text": "Which SQL clause is used to rename a column in the result set?",
-    "options": ["AS", "RENAME", "CHANGE", "MODIFY"],
-    "answer": "AS",
-    "hint": "Used to assign an alias to a column or table."
+   {
+    "text": "What is the output of: x = 5; x += 3?",
+    "options": ["8", "5", "3", "Error"],
+    "answer": "8",
+    "hint": "+= adds and assigns the result."
   },
-  {
-    "text": "Which Git command shows the changes staged for the next commit?",
-    "options": ["git status", "git diff --cached", "git log", "git show"],
-    "answer": "git diff --cached",
-    "hint": "Displays differences between staged files and the last commit."
+   {
+    "text": "Which protocol ensures reliable data transfer?",
+    "options": ["UDP", "TCP", "IP", "HTTP"],
+    "answer": "TCP",
+    "hint": "It uses acknowledgments and retransmissions."
   },
-  {
-    "text": "Which AI concept refers to reducing model complexity to prevent overfitting?",
-    "options": ["Regularization", "Normalization", "Generalization", "Dropout"],
-    "answer": "Regularization",
-    "hint": "Adds penalties to the loss function to discourage complexity."
+    {
+    "text": "Which keyword is used to create an object in Java?",
+    "options": ["new", "create", "object", "init"],
+    "answer": "new",
+    "hint": "It allocates memory for the object."
   },
   {
     "text": "Which SQL command is used to remove specific rows from a table?",
@@ -327,17 +326,17 @@
     "answer": "DELETE",
     "hint": "Deletes rows based on a WHERE condition."
   },
-  {
-    "text": "Which Git command is used to revert a commit by creating a new one?",
-    "options": ["git reset", "git revert", "git undo", "git rollback"],
-    "answer": "git revert",
-    "hint": "Creates a new commit that undoes the changes of a previous one."
+ {
+    "text": "Which network topology connects all devices to a central hub?",
+    "options": ["Ring", "Mesh", "Star", "Bus"],
+    "answer": "Star",
+    "hint": "All nodes connect to a central point."
   },
-  {
-    "text": "Which SQL clause is used to filter rows before grouping?",
-    "options": ["HAVING", "WHERE", "GROUP BY", "ORDER BY"],
-    "answer": "WHERE",
-    "hint": "Filters rows before aggregation occurs."
+ {
+    "text": "What is the output of: print(10 // 3)?",
+    "options": ["3.33", "3", "4", "Error"],
+    "answer": "3",
+    "hint": "// performs integer division."
   },
   {
     "text": "Which Git command is used to view the content of a specific commit?",
@@ -352,10 +351,10 @@
     "hint": "Used to count rows matching a condition."
   },
   {
-    "text": "Which Git command is used to discard changes in the working directory?",
-    "options": ["git reset", "git clean", "git revert", "git stash"],
-    "answer": "git clean",
-    "hint": "Removes untracked files from the working directory."
+    "text": "Which attack floods a system with traffic?",
+    "options": ["Phishing", "DDoS", "MITM", "Brute Force"],
+    "answer": "DDoS",
+    "hint": "It overwhelms servers to disrupt service."
   },
   {
     "text": "Which SQL clause is used to combine rows from two tables based on a condition?",
@@ -364,11 +363,11 @@
     "hint": "Combines rows with matching values in specified columns."
   },
 
-  {
-    "text": "Which Git command is used to temporarily save changes without committing?",
-    "options": ["git stash", "git save", "git hold", "git suspend"],
-    "answer": "git stash",
-    "hint": "Stores changes for later application without committing."
+ {
+    "text": "Which component decodes instructions in a CPU?",
+    "options": ["Control Unit", "ALU", "Register", "Cache"],
+    "answer": "Control Unit",
+    "hint": "It interprets and directs operations."
   },
   {
     "text": "Which SQL clause is used to combine result sets and remove duplicates?",
@@ -382,17 +381,17 @@
     "answer": "Dimensionality Reduction",
     "hint": "Techniques like PCA reduce features while retaining patterns."
   },
-  {
-    "text": "Which Git command is used to apply stashed changes?",
-    "options": ["git apply", "git stash pop", "git merge", "git pull"],
-    "answer": "git stash pop",
-    "hint": "Restores the most recent stash and removes it from the stash list."
+ {
+    "text": "Which type of hacker works for a company to find vulnerabilities?",
+    "options": ["Black Hat", "White Hat", "Grey Hat", "Red Hat"],
+    "answer": "White Hat",
+    "hint": "They follow ethical guidelines."
   },
   {
-    "text": "Which SQL clause is used to limit the number of rows returned?",
-    "options": ["LIMIT", "TOP", "ROWNUM", "MAX"],
-    "answer": "LIMIT",
-    "hint": "Restricts the number of rows in the result set."
+    "text": "Which attack intercepts communication between two parties?",
+    "options": ["Phishing", "Man-in-the-middle", "DDoS", "SQL Injection"],
+    "answer": "Man-in-the-middle",
+    "hint": "The attacker secretly relays and possibly alters messages."
   },
   {
     "text": "Which AI concept refers to adjusting weights using error gradients?",
@@ -400,23 +399,23 @@
     "answer": "Backpropagation",
     "hint": "Uses gradient descent to update weights layer by layer."
   },
-  {
-    "text": "Which Git command shows the list of stashed changes?",
-    "options": ["git stash list", "git stash show", "git log stash", "git stash status"],
-    "answer": "git stash list",
-    "hint": "Displays all saved stash entries."
+ {
+    "text": "What does ALU stand for in computer architecture?",
+    "options": ["Advanced Logic Unit", "Arithmetic Logic Unit", "Analog Logic Unit", "Application Level Unit"],
+    "answer": "Arithmetic Logic Unit",
+    "hint": "It performs mathematical and logical operations."
   },
   {
-    "text": "Which SQL clause is used to filter rows after aggregation?",
-    "options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
-    "answer": "HAVING",
-    "hint": "Used to filter grouped results based on aggregate conditions."
+    "text": "What is the function of the control unit in a CPU?",
+    "options": ["Store data", "Perform calculations", "Direct operations", "Manage memory"],
+    "answer": "Direct operations",
+    "hint": "It coordinates all processor activities."
   },
   {
-    "text": "Which Git command is used to discard all local changes?",
-    "options": ["git reset --hard", "git clean -fd", "git revert HEAD", "git stash drop"],
-    "answer": "git reset --hard",
-    "hint": "Resets working directory and index to last commit."
+    "text": "Which OS component manages memory allocation?",
+    "options": ["Kernel", "Shell", "BIOS", "Driver"],
+    "answer": "Kernel",
+    "hint": "It controls low-level system resources."
   },
   {
     "text": "Which AI concept refers to training a model on one task and adapting it to another?",
