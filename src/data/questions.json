@@ -1,296 +1,303 @@
 [
   {
-    "text": "You need to find the fastest route from your current location to every other bus stop in a town with known travel times.",
-    "options": ["Dijkstra’s Algorithm", "DFS", "BFS", "Kruskal’s Algorithm", "Merge Sort"],
-    "answer": "Dijkstra’s Algorithm",
-    "hint": "Best for single-source shortest paths with weights."
+    "text": "What will be the output of the following Python code?\n\nx = [1, 2, 3]\nprint(x * 2)",
+    "options": ["[2, 4, 6]", "[1, 2, 3, 1, 2, 3]", "[1, 1, 2, 2, 3, 3]", "Error"],
+    "answer": "[1, 2, 3, 1, 2, 3]",
+    "hint": "List multiplication repeats the list."
   },
   {
-    "text": "You want to connect multiple villages with water pipelines at the minimum possible total cost.",
-    "options": ["Prim’s Algorithm", "Bubble Sort", "DFS", "Linear Search", "Floyd-Warshall"],
-    "answer": "Prim’s Algorithm",
-    "hint": "Builds minimum spanning tree by expanding from one node."
+    "text": "What will be the output of this Python code?\n\ndef f(x, y=[]):\n    y.append(x)\n    return y\nprint(f(1))\nprint(f(2))",
+    "options": ["[1] [2]", "[1, 2] [2]", "[1] [1, 2]", "[1, 2] [1, 2]"],
+    "answer": "[1] [1, 2]",
+    "hint": "Default mutable argument persists across calls."
   },
   {
-    "text": "You're packing a bag with items of different weights and values to maximize total value without exceeding capacity.",
-    "options": ["Fractional Knapsack", "Merge Sort", "Job Sequencing", "DFS", "Counting Sort"],
-    "answer": "Fractional Knapsack",
-    "hint": "Allows taking parts of items for best value-to-weight ratio."
+    "text": "In Java, what does this print?\n\nint x = 5;\nSystem.out.println(x++ + ++x);",
+    "options": ["10", "11", "12", "13"],
+    "answer": "12",
+    "hint": "Post-increment happens after use; pre-increment before use."
   },
   {
-    "text": "You need to check if you can schedule multiple meetings in a single room without overlap.",
-    "options": ["Activity Selection", "BFS", "Bellman-Ford", "Heap Sort", "DFS"],
-    "answer": "Activity Selection",
-    "hint": "Pick tasks sorted by earliest finishing time."
+    "text": "What will this print?\n\nprint(0.1 + 0.2 == 0.3)",
+    "options": ["True", "False", "Error", "0.3"],
+    "answer": "False",
+    "hint": "Floating point arithmetic introduces precision errors."
   },
   {
-    "text": "You need to repeatedly remove the highest scorer in a game leaderboard efficiently.",
-    "options": ["Max Heap", "Queue", "Linked List", "DFS", "Linear Array"],
-    "answer": "Max Heap",
-    "hint": "Fastest way to fetch highest element repeatedly."
+    "text": "If 5 + 3 = 28, 9 + 1 = 810, 8 + 6 = 214, then 7 + 3 = ?",
+    "options": ["10", "21", "410", "73"],
+    "answer": "410",
+    "hint": "Pattern: concatenate product and sum."
   },
   {
-    "text": "You need to group your phone contacts so that all names with the same starting letter stay together.",
-    "options": ["Hash Table", "Binary Search Tree", "DFS", "Stack", "Queue"],
-    "answer": "Hash Table",
-    "hint": "Best for organizing data via key-based grouping."
+    "text": "Find the next number in the sequence: 2, 6, 12, 20, 30, ?",
+    "options": ["36", "40", "42", "44"],
+    "answer": "42",
+    "hint": "Pattern: n² + n."
   },
   {
-    "text": "You’re exploring all possible moves in a maze to check if you can reach the exit from the entrance.",
-    "options": ["BFS", "Quick Sort", "Merge Sort", "Kruskal’s Algorithm", "Heap Sort"],
-    "answer": "BFS",
-    "hint": "Searches level by level to find shortest path."
+    "text": "Find the missing number: 7, 26, 63, 124, 215, ?",
+    "options": ["342", "343", "344", "350"],
+    "answer": "343",
+    "hint": "Pattern: n³ + n."
   },
   {
-    "text": "You want to compress a long text by replacing frequent patterns with shorter codes.",
-    "options": ["Huffman Coding", "DFS", "Bubble Sort", "Dijkstra", "AVL Tree"],
-    "answer": "Huffman Coding",
-    "hint": "Optimal prefix-free compression technique."
+    "text": "If MONDAY = 65, then FRIDAY = ?",
+    "options": ["72", "73", "74", "75"],
+    "answer": "73",
+    "hint": "Sum of position values of letters (A=1, B=2, ...)."
   },
   {
-    "text": "You want to detect if someone in your social network is part of a mutual connection circle.",
-    "options": ["Union-Find", "Bubble Sort", "Floyd-Warshall", "Linear Search", "Queue"],
-    "answer": "Union-Find",
-    "hint": "Efficient for checking if two nodes are connected."
+    "text": "If 6 × 2 = 32, 9 × 3 = 108, 5 × 4 = 80, then 7 × 5 = ?",
+    "options": ["140", "175", "210", "180"],
+    "answer": "140",
+    "hint": "Multiply then double the result."
   },
   {
-    "text": "You’re comparing two documents to see how similar they are word by word.",
-    "options": ["Dynamic Programming (LCS)", "Binary Search", "DFS", "Heap Sort", "Bit Masking"],
-    "answer": "Dynamic Programming (LCS)",
-    "hint": "Finds longest matching subsequence between strings."
+    "text": "A man walks 1 km south, 1 km east, 1 km north — and returns to the start. Where is he?",
+    "options": ["Equator", "North Pole", "South Pole", "Zero Latitude"],
+    "answer": "North Pole",
+    "hint": "Only near poles can such loops close geometrically."
   },
   {
-    "text": "You're breaking down a number into prime factors efficiently.",
-    "options": ["Sieve of Eratosthenes", "Merge Sort", "Queue", "Binary Tree", "DFS"],
-    "answer": "Sieve of Eratosthenes",
-    "hint": "Precomputes primes efficiently using elimination."
+    "text": "Which register stores the address of the next instruction?",
+    "options": ["MAR", "PC", "IR", "MDR"],
+    "answer": "PC",
+    "hint": "Program Counter keeps track of the next instruction."
   },
   {
-    "text": "You want to find the shortest route between every pair of cities on a road map.",
-    "options": ["Floyd-Warshall", "DFS", "Binary Search", "Greedy Coloring", "Selection Sort"],
-    "answer": "Floyd-Warshall",
-    "hint": "All-pairs shortest path algorithm."
+    "text": "Which scheduling algorithm may cause starvation?",
+    "options": ["FCFS", "SJF", "Round Robin", "Priority"],
+    "answer": "Priority",
+    "hint": "Low-priority processes may never execute."
   },
   {
-    "text": "You're trying different ingredient combinations in a recipe to find the best taste.",
-    "options": ["Backtracking", "Merge Sort", "DFS", "Kruskal", "Counting Sort"],
-    "answer": "Backtracking",
-    "hint": "Tries all combinations and undoes wrong ones."
+    "text": "What is RAID used for?",
+    "options": ["Data compression", "Data redundancy & performance", "CPU scheduling", "Encryption"],
+    "answer": "Data redundancy & performance",
+    "hint": "RAID combines drives for speed and fault tolerance."
   },
   {
-    "text": "You want to autocomplete words as you type in a search bar.",
-    "options": ["Trie", "Stack", "Queue", "Linked List", "DFS"],
-    "answer": "Trie",
-    "hint": "Stores words by shared prefixes."
+    "text": "Which layer of the OSI model is responsible for routing?",
+    "options": ["Transport", "Network", "Session", "Data Link"],
+    "answer": "Network",
+    "hint": "Routers operate at the network layer."
   },
   {
-    "text": "You want to schedule non-overlapping exams for students such that no two conflicting exams happen at the same time.",
-    "options": ["Graph Coloring", "Bubble Sort", "DFS", "Queue", "Greedy Knapsack"],
-    "answer": "Graph Coloring",
-    "hint": "Assign different colors to adjacent nodes."
+    "text": "In Linux, what does the command 'chmod 755 file.txt' mean?",
+    "options": ["Read-only file", "Full access to everyone", "Owner can read/write/execute; others read/execute", "File deleted"],
+    "answer": "Owner can read/write/execute; others read/execute",
+    "hint": "7=RWX for owner, 5=R-X for group/others."
   },
   {
-    "text": "You need to repeatedly get the cheapest flight option from a bookings list.",
-    "options": ["Min Heap", "DFS", "Stack", "Hash Table", "Priority Queue"],
-    "answer": "Min Heap",
-    "hint": "Gives smallest element efficiently."
+    "text": "Which of these is not a characteristic of ROM?",
+    "options": ["Non-volatile", "Can be rewritten many times", "Stores firmware", "Retains data without power"],
+    "answer": "Can be rewritten many times",
+    "hint": "ROM is read-only or rarely rewritable."
   },
   {
-    "text": "You're checking if a sequence of brackets in code is balanced.",
-    "options": ["Stack", "Queue", "Heap", "Trie", "Merge Sort"],
-    "answer": "Stack",
-    "hint": "Keeps track of last opened symbol."
+    "text": "Who is the CEO of OpenAI (2025)?",
+    "options": ["Sundar Pichai", "Satya Nadella", "Sam Altman", "Elon Musk"],
+    "answer": "Sam Altman",
+    "hint": "He co-founded OpenAI and returned as CEO."
   },
   {
-    "text": "You’re undoing operations in a text editor one by one.",
-    "options": ["Stack", "Queue", "Binary Search", "Heap", "Graph"],
-    "answer": "Stack",
-    "hint": "LIFO structure ideal for undo actions."
+    "text": "Which programming language is mainly used for AI and ML?",
+    "options": ["Python", "C++", "PHP", "Ruby"],
+    "answer": "Python",
+    "hint": "It has rich ML libraries like TensorFlow and PyTorch."
   },
   {
-    "text": "You want to generate all possible passwords from a set of characters.",
-    "options": ["Recursion", "Hashing", "Binary Search", "Greedy", "Queue"],
-    "answer": "Recursion",
-    "hint": "Repeats calls with smaller inputs."
+    "text": "Docker is mainly used for:",
+    "options": ["Virtualization", "Containerization", "Compilation", "Automation"],
+    "answer": "Containerization",
+    "hint": "Docker isolates apps using containers."
   },
   {
-    "text": "You need to check if a word exists inside a huge dictionary quickly.",
-    "options": ["Binary Search", "Bubble Sort", "DFS", "Queue", "Backtracking"],
-    "answer": "Binary Search",
-    "hint": "Works only when data is sorted."
+    "text": "CRUD stands for:",
+    "options": ["Create, Read, Update, Delete", "Copy, Run, Undo, Drop", "Check, Reset, Upload, Delete", "None"],
+    "answer": "Create, Read, Update, Delete",
+    "hint": "These are the four basic database operations."
   },
   {
-    "text": "You need to assign different WiFi frequencies to nearby routers so they don’t interfere with each other.",
-    "options": ["Graph Coloring", "DFS", "Bubble Sort", "Dijkstra", "Binary Search"],
-    "answer": "Graph Coloring",
-    "hint": "Ensures adjacent nodes don’t share the same color."
+    "text": "Which company developed the TensorFlow library?",
+    "options": ["OpenAI", "Facebook", "Google", "IBM"],
+    "answer": "Google",
+    "hint": "TensorFlow is developed and maintained by Google Brain."
   },
   {
-    "text": "You want to compress repeating characters in a string like 'aaabbcccc' into 'a3b2c4'.",
-    "options": ["Run-Length Encoding", "Huffman Coding", "Merge Sort", "Stack", "Queue"],
-    "answer": "Run-Length Encoding",
-    "hint": "Best when characters repeat consecutively."
+    "text": "The Turing Award is equivalent to:",
+    "options": ["Nobel Prize in Computing", "Oscar in AI", "Grammy of Programming", "Pulitzer of IT"],
+    "answer": "Nobel Prize in Computing",
+    "hint": "It’s the highest recognition for computer scientists."
   },
   {
-    "text": "You need to check if a given word can be made by rearranging the letters of another.",
-    "options": ["Anagram Check using Sorting", "DFS", "Queue", "Binary Tree", "Knapsack"],
-    "answer": "Anagram Check using Sorting",
-    "hint": "Sort both and compare."
+    "text": "Which SQL command is used to extract data from a database?",
+    "options": ["GET", "EXTRACT", "SELECT", "FETCH", "RETRIEVE"],
+    "answer": "SELECT",
+    "hint": "Used to query and retrieve rows from tables."
   },
   {
-    "text": "You want to suggest friends to a user based on mutual connections.",
-    "options": ["Breadth-First Search (BFS)", "Quick Sort", "Linear Search", "Bellman-Ford", "Stack"],
-    "answer": "Breadth-First Search (BFS)",
-    "hint": "Expands level by level from each friend."
+    "text": "Which SQL keyword is used to remove duplicate rows from a result set?",
+    "options": ["DISTINCT", "UNIQUE", "FILTER", "DELETE", "SORT"],
+    "answer": "DISTINCT",
+    "hint": "Used after SELECT to get only unique values."
   },
   {
-    "text": "You are allocating time slots to jobs that must be completed before their deadlines to get max profit.",
-    "options": ["Job Sequencing with Deadlines", "Merge Sort", "DFS", "Counting Sort", "Prim’s Algorithm"],
-    "answer": "Job Sequencing with Deadlines",
-    "hint": "Greedy scheduling based on deadlines."
+    "text": "Which SQL clause is used to sort the result set in ascending or descending order?",
+    "options": ["GROUP BY", "ORDER BY", "SORT BY", "ARRANGE", "FILTER BY"],
+    "answer": "ORDER BY",
+    "hint": "Default order is ascending unless DESC is used."
   },
   {
-    "text": "You want to find the most frequently searched keyword from millions of searches.",
-    "options": ["Hash Map Counting", "Binary Search", "Queue", "DFS", "Bubble Sort"],
-    "answer": "Hash Map Counting",
-    "hint": "Stores frequencies using key-value pairs."
+    "text": "Which command is used to permanently save changes made in a database?",
+    "options": ["SAVE", "UPDATE", "COMMIT", "STORE", "SAVEPOINT"],
+    "answer": "COMMIT",
+    "hint": "Once executed, changes cannot be rolled back."
   },
   {
-    "text": "You want to rank students based on their scores efficiently.",
-    "options": ["Quick Sort", "DFS", "Linear Search", "Queue", "Binary Tree"],
-    "answer": "Quick Sort",
-    "hint": "Efficient average-case sorting via partitioning."
+    "text": "In SQL, which statement is used to remove a table completely from the database?",
+    "options": ["DELETE TABLE", "DROP TABLE", "REMOVE TABLE", "TRUNCATE TABLE", "CLEAR TABLE"],
+    "answer": "DROP TABLE",
+    "hint": "This deletes the table structure along with data."
   },
   {
-    "text": "You want to simulate a line of people at a ticket counter where the first person gets served first.",
-    "options": ["Queue", "Stack", "Heap", "Trie", "Binary Search"],
-    "answer": "Queue",
-    "hint": "Follows First-In-First-Out rule."
+    "text": "Which command is used in Git to check the current status of files?",
+    "options": ["git log", "git commit", "git status", "git show", "git check"],
+    "answer": "git status",
+    "hint": "Displays tracked, untracked, and staged files."
   },
   {
-    "text": "You want to map employee IDs to names for instant lookup.",
-    "options": ["Hash Table", "Stack", "Queue", "Heap", "Linked List"],
-    "answer": "Hash Table",
-    "hint": "Best for constant-time key lookup."
+    "text": "Which Git command is used to upload local commits to a remote repository?",
+    "options": ["git upload", "git send", "git push", "git merge", "git sync"],
+    "answer": "git push",
+    "hint": "It transfers local changes to a remote branch."
   },
   {
-    "text": "You want to find if a path exists between two rooms in a building layout.",
-    "options": ["Depth-First Search (DFS)", "Merge Sort", "Bubble Sort", "Counting Sort", "Greedy"],
-    "answer": "Depth-First Search (DFS)",
-    "hint": "Goes deep until it reaches goal."
+    "text": "Which Git command creates a copy of an existing repository to your local machine?",
+    "options": ["git fork", "git copy", "git clone", "git pull", "git init"],
+    "answer": "git clone",
+    "hint": "Used to make a full local copy of a remote repository."
   },
   {
-    "text": "You are checking if there is a cycle in a friendship chain.",
-    "options": ["Union-Find", "Binary Search", "Queue", "Counting Sort", "Prim’s Algorithm"],
-    "answer": "Union-Find",
-    "hint": "Efficient for detecting connected components."
+    "text": "Which Git command is used to record changes in the local repository?",
+    "options": ["git save", "git push", "git commit", "git stage", "git add"],
+    "answer": "git commit",
+    "hint": "Creates a snapshot of staged changes."
   },
   {
-    "text": "You want to find the longest increasing pattern of stock prices.",
-    "options": ["Dynamic Programming (LIS)", "Heap", "DFS", "Bubble Sort", "Binary Search"],
-    "answer": "Dynamic Programming (LIS)",
-    "hint": "Builds solution based on previous smaller solutions."
+    "text": "In Git, which command is used to view the history of commits?",
+    "options": ["git history", "git commits", "git log", "git show", "git reflog"],
+    "answer": "git log",
+    "hint": "Displays commit history in chronological order."
   },
   {
-    "text": "You need to search for a word inside a large paragraph multiple times efficiently.",
-    "options": ["KMP String Matching", "Bubble Sort", "DFS", "Stack", "Prim’s Algorithm"],
-    "answer": "KMP String Matching",
-    "hint": "Avoids redundant character comparisons."
+    "text": "Which of the following statements is false about Python lists?",
+    "options": ["Lists are mutable", "Lists can contain different data types", "Lists are stored in contiguous memory", "Lists support indexing"],
+    "answer": "Lists are stored in contiguous memory",
+    "hint": "Python lists store references, not contiguous data."
   },
   {
-    "text": "You want to track the top 10 trending videos updated every second.",
-    "options": ["Min Heap", "Queue", "Stack", "Binary Tree", "Bubble Sort"],
-    "answer": "Min Heap",
-    "hint": "Keeps smallest element at root for replacement."
+    "text": "What is the time complexity of Binary Search?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "answer": "O(log n)",
+    "hint": "Binary search divides the range in half each step."
   },
   {
-    "text": "You need to break down a big problem like calculating Fibonacci numbers into reusable subproblems.",
-    "options": ["Dynamic Programming", "Greedy", "DFS", "Heap", "Stack"],
-    "answer": "Dynamic Programming",
-    "hint": "Stores solutions to overlapping subproblems."
+    "text": "In Java, which concept allows a subclass to provide a specific implementation of a parent method?",
+    "options": ["Overloading", "Overriding", "Abstraction", "Encapsulation"],
+    "answer": "Overriding",
+    "hint": "Method overriding replaces base class behavior."
   },
   {
-    "text": "You want to find the kth smallest element from an unsorted list.",
-    "options": ["Quickselect", "Bubble Sort", "Binary Search", "Queue", "Trie"],
-    "answer": "Quickselect",
-    "hint": "Uses partition logic without full sorting."
+    "text": "Which SQL clause is used to group rows that have the same values into summary rows?",
+    "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING", "JOIN"],
+    "answer": "GROUP BY",
+    "hint": "Often used with aggregate functions like COUNT() or SUM()."
   },
   {
-    "text": "You want to determine the minimum number of coins to make a given amount.",
-    "options": ["Coin Change (DP)", "Stack", "Bubble Sort", "DFS", "Queue"],
-    "answer": "Coin Change (DP)",
-    "hint": "Builds smallest solution using past results."
+    "text": "Which SQL join returns all rows from both tables, matching rows where available?",
+    "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN", "CROSS JOIN"],
+    "answer": "FULL OUTER JOIN",
+    "hint": "Combines results of both left and right joins."
   },
   {
-    "text": "You want to build a binary decision system that splits data at each step based on thresholds.",
-    "options": ["Decision Tree", "Heap", "Queue", "Stack", "Bubble Sort"],
-    "answer": "Decision Tree",
-    "hint": "Splits data on features to classify."
+    "text": "Which SQL keyword filters rows after grouping is applied?",
+    "options": ["WHERE", "HAVING", "FILTER", "ORDER BY", "LIMIT"],
+    "answer": "HAVING",
+    "hint": "It is used with GROUP BY to apply conditions on aggregates."
   },
   {
-    "text": "You want to flip the order of pages in a book stack.",
-    "options": ["Stack", "Queue", "Heap", "Trie", "Binary Tree"],
-    "answer": "Stack",
-    "hint": "Best for reversing order using LIFO."
+    "text": "In Git, which command is used to combine changes from one branch into another?",
+    "options": ["git branch", "git push", "git merge", "git pull", "git combine"],
+    "answer": "git merge",
+    "hint": "Used to integrate changes from another branch."
   },
   {
-    "text": "You want to visit all places in a theme park without repeating any and return to the start with minimum walking.",
-    "options": ["Traveling Salesman Problem", "Dijkstra", "DFS", "Queue", "Insertion Sort"],
-    "answer": "Traveling Salesman Problem",
-    "hint": "Shortest Hamiltonian cycle problem."
+    "text": "Which Git command is used to create a new branch?",
+    "options": ["git make-branch", "git branch", "git create", "git new", "git fork"],
+    "answer": "git branch",
+    "hint": "It creates a new line of development."
   },
   {
-    "text": "You want to check if two words like 'listen' and 'silent' are formed from the same characters.",
-    "options": ["Anagram Check using Hash Map", "Queue", "Binary Search", "DFS", "Heap"],
-    "answer": "Anagram Check using Hash Map",
-    "hint": "Count and compare character frequencies."
+    "text": "In Artificial Intelligence, what does 'machine learning' primarily focus on?",
+    "options": ["Manually coding rules", "Learning from data", "Simulating emotions", "Hardware acceleration", "Image compression"],
+    "answer": "Learning from data",
+    "hint": "Algorithms improve automatically through experience."
   },
   {
-    "text": "You need to allocate rooms to college courses so that no two conflicting courses occur in the same room.",
-    "options": ["Graph Coloring", "Queue", "Stack", "DFS", "Bubble Sort"],
-    "answer": "Graph Coloring",
-    "hint": "Assigns different colors to adjacent vertices."
+    "text": "Which type of learning uses labeled data to train models?",
+    "options": ["Unsupervised Learning", "Supervised Learning", "Reinforcement Learning", "Self-Learning", "Transfer Learning"],
+    "answer": "Supervised Learning",
+    "hint": "Data comes with input-output pairs."
   },
   {
-    "text": "You want to merge two already sorted guest lists into one final sorted list.",
-    "options": ["Two-Pointer Merge", "Bubble Sort", "DFS", "Heap", "Stack"],
-    "answer": "Two-Pointer Merge",
-    "hint": "Walks both lists simultaneously."
+    "text": "Which AI subfield focuses on enabling computers to understand human language?",
+    "options": ["Computer Vision", "Deep Learning", "Natural Language Processing (NLP)", "Robotics", "Data Mining"],
+    "answer": "Natural Language Processing (NLP)",
+    "hint": "Used in chatbots and translation systems."
   },
   {
-    "text": "You want to schedule movie scenes so that actors are used efficiently without unnecessary breaks.",
-    "options": ["Interval Scheduling", "Binary Search", "Stack", "Queue", "Bubble Sort"],
-    "answer": "Interval Scheduling",
-    "hint": "Greedy by earliest finish time."
+    "text": "In machine learning, what is 'overfitting'?",
+    "options": ["Model performs poorly on both training and test data", "Model memorizes training data but fails on new data", "Model runs too fast", "Model ignores input features", "Model performs well on unseen data"],
+    "answer": "Model memorizes training data but fails on new data",
+    "hint": "It means the model lacks generalization."
   },
   {
-    "text": "You want to find the best spot to place a security camera to cover maximum area in a graph of streets.",
-    "options": ["Articulation Point (DFS)", "Bubble Sort", "Queue", "Stack", "Counting Sort"],
-    "answer": "Articulation Point (DFS)",
-    "hint": "Finds crucial nodes whose removal disconnects graph."
+    "text": "Which AI technique allows an agent to learn by interacting with its environment and receiving rewards or penalties?",
+    "options": ["Supervised Learning", "Reinforcement Learning", "Deep Learning", "Clustering", "Transfer Learning"],
+    "answer": "Reinforcement Learning",
+    "hint": "Learning through trial and feedback loop."
   },
   {
-    "text": "You need to check if you can divide people into two non-fighting teams.",
-    "options": ["Bipartite Graph Check (BFS/DFS)", "Bubble Sort", "Stack", "Trie", "Hashing"],
-    "answer": "Bipartite Graph Check (BFS/DFS)",
-    "hint": "Tries coloring graph with two colors."
+    "text": "Which type of neural network is mainly used for image recognition tasks?",
+    "options": ["Recurrent Neural Network (RNN)", "Convolutional Neural Network (CNN)", "Feedforward Neural Network", "Generative Adversarial Network (GAN)", "Transformer"],
+    "answer": "Convolutional Neural Network (CNN)",
+    "hint": "Uses filters and feature maps to detect patterns in images."
   },
   {
-    "text": "You want to rank websites based on how many other websites link to them.",
-    "options": ["PageRank (Graph Algorithm)", "Bubble Sort", "Stack", "DFS", "Greedy"],
-    "answer": "PageRank (Graph Algorithm)",
-    "hint": "Scores nodes based on incoming edges."
+    "text": "What is the purpose of the activation function in a neural network?",
+    "options": ["To initialize weights", "To introduce non-linearity", "To normalize inputs", "To prevent overfitting", "To reduce loss"],
+    "answer": "To introduce non-linearity",
+    "hint": "Without it, the network behaves like a linear model."
   },
   {
-    "text": "You want to reverse a queue using another data structure.",
-    "options": ["Use Stack", "Bubble Sort", "Heap", "Trie", "Binary Search"],
-    "answer": "Use Stack",
-    "hint": "Push then pop to reverse FIFO order."
+    "text": "Which algorithm is commonly used to update weights in deep learning models?",
+    "options": ["Gradient Descent", "Random Search", "Dynamic Programming", "Greedy Algorithm", "K-Means Clustering"],
+    "answer": "Gradient Descent",
+    "hint": "It minimizes the loss function by adjusting weights step by step."
   },
   {
-    "text": "You want to find the shortest path in a grid where all moves cost the same.",
-    "options": ["Breadth-First Search (BFS)", "DFS", "Dijkstra", "Prim’s Algorithm", "Heap Sort"],
-    "answer": "Breadth-First Search (BFS)",
-    "hint": "Best for equal-weight shortest path."
+    "text": "What is the main function of dropout in deep learning?",
+    "options": ["Speed up training", "Increase learning rate", "Prevent overfitting", "Reduce dataset size", "Add non-linearity"],
+    "answer": "Prevent overfitting",
+    "hint": "It randomly ignores some neurons during training to improve generalization."
+  },
+  {
+    "text": "In a neural network, what does each neuron output after applying weights and bias?",
+    "options": ["Raw input", "Loss value", "Activation value", "Gradient value", "Weight matrix"],
+    "answer": "Activation value",
+    "hint": "It’s the transformed value passed to the next layer."
   }
 ]
+
