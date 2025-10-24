@@ -1,135 +1,70 @@
 [
   {
-    "text": "What will be the output of the following Python code?\n\nx = [1, 2, 3]\nprint(x * 2)",
-    "options": ["[2, 4, 6]", "[1, 2, 3, 1, 2, 3]", "[1, 1, 2, 2, 3, 3]", "Error"],
-    "answer": "[1, 2, 3, 1, 2, 3]",
+    "text": "What is the time complexity of Binary Search?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "answer": "O(log n)",
+    "hint": "Each step halves the search space."
+  },
+  {
+    "text": "Which Git command is used to record changes in the local repository?",
+    "options": ["git save", "git push", "git commit", "git stage"],
+    "answer": "git commit",
+    "hint": "Creates a snapshot of staged changes."
+  },
+  {
+    "text": "Which SQL clause is used to group rows with the same values?",
+    "options": ["GROUP BY", "ORDER BY", "WHERE", "JOIN"],
+    "answer": "GROUP BY",
+    "hint": "Often used with aggregate functions like COUNT()."
+  },
+  {
+    "text": "Which AI technique learns by interacting with the environment?",
+    "options": ["Supervised Learning", "Reinforcement Learning", "Clustering", "Transfer Learning"],
+    "answer": "Reinforcement Learning",
+    "hint": "Trial and error with rewards and penalties."
+  },
+  {
+    "text": "What does the Python expression `[1, 2] * 2` return?",
+    "options": ["[2, 4]", "[1, 2, 1, 2]", "[1, 1, 2, 2]", "Error"],
+    "answer": "[1, 2, 1, 2]",
     "hint": "List multiplication repeats the list."
-  },
-  {
-    "text": "What will be the output of this Python code?\n\ndef f(x, y=[]):\n    y.append(x)\n    return y\nprint(f(1))\nprint(f(2))",
-    "options": ["[1] [2]", "[1, 2] [2]", "[1] [1, 2]", "[1, 2] [1, 2]"],
-    "answer": "[1] [1, 2]",
-    "hint": "Default mutable argument persists across calls."
-  },
-  {
-    "text": "In Java, what does this print?\n\nint x = 5;\nSystem.out.println(x++ + ++x);",
-    "options": ["10", "11", "12", "13"],
-    "answer": "12",
-    "hint": "Post-increment happens after use; pre-increment before use."
-  },
-  {
-    "text": "What will this print?\n\nprint(0.1 + 0.2 == 0.3)",
-    "options": ["True", "False", "Error", "0.3"],
-    "answer": "False",
-    "hint": "Floating point arithmetic introduces precision errors."
-  },
-  {
-    "text": "If 5 + 3 = 28, 9 + 1 = 810, 8 + 6 = 214, then 7 + 3 = ?",
-    "options": ["10", "21", "410", "73"],
-    "answer": "410",
-    "hint": "Pattern: concatenate product and sum."
-  },
-  {
-    "text": "Find the next number in the sequence: 2, 6, 12, 20, 30, ?",
-    "options": ["36", "40", "42", "44"],
-    "answer": "42",
-    "hint": "Pattern: n² + n."
-  },
-  {
-    "text": "Find the missing number: 7, 26, 63, 124, 215, ?",
-    "options": ["342", "343", "344", "350"],
-    "answer": "343",
-    "hint": "Pattern: n³ + n."
-  },
-  {
-    "text": "If MONDAY = 65, then FRIDAY = ?",
-    "options": ["72", "73", "74", "75"],
-    "answer": "73",
-    "hint": "Sum of position values of letters (A=1, B=2, ...)."
-  },
-  {
-    "text": "If 6 × 2 = 32, 9 × 3 = 108, 5 × 4 = 80, then 7 × 5 = ?",
-    "options": ["140", "175", "210", "180"],
-    "answer": "140",
-    "hint": "Multiply then double the result."
-  },
-  {
-    "text": "A man walks 1 km south, 1 km east, 1 km north — and returns to the start. Where is he?",
-    "options": ["Equator", "North Pole", "South Pole", "Zero Latitude"],
-    "answer": "North Pole",
-    "hint": "Only near poles can such loops close geometrically."
   },
   {
     "text": "Which register stores the address of the next instruction?",
     "options": ["MAR", "PC", "IR", "MDR"],
     "answer": "PC",
-    "hint": "Program Counter keeps track of the next instruction."
+    "hint": "Tracks execution flow."
   },
+  {
+    "text": "Which data structure uses LIFO principle?",
+    "options": ["Queue", "Stack", "Array", "Linked List"],
+    "answer": "Stack",
+    "hint": "Last in, first out"
+  },
+  {
+    "text": "Which SQL command removes a table completely?",
+    "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+    "answer": "DROP",
+    "hint": "Deletes both structure and data."
+  },
+  {
+    "text": "What is the sum of MONDAY?",
+    "options": ["65", "66", "67", "68"],
+    "answer": "66",
+    "hint": "Sum letter positions with A=0."
+  },
+  {
+    "text": "Which neural network is best for image recognition?",
+    "options": ["RNN", "CNN", "GAN", "Transformer"],
+    "answer": "CNN",
+    "hint": "Uses filters and feature maps."
+  },
+
   {
     "text": "Which scheduling algorithm may cause starvation?",
     "options": ["FCFS", "SJF", "Round Robin", "Priority"],
     "answer": "Priority",
-    "hint": "Low-priority processes may never execute."
-  },
-  {
-    "text": "What is RAID used for?",
-    "options": ["Data compression", "Data redundancy & performance", "CPU scheduling", "Encryption"],
-    "answer": "Data redundancy & performance",
-    "hint": "RAID combines drives for speed and fault tolerance."
-  },
-  {
-    "text": "Which layer of the OSI model is responsible for routing?",
-    "options": ["Transport", "Network", "Session", "Data Link"],
-    "answer": "Network",
-    "hint": "Routers operate at the network layer."
-  },
-  {
-    "text": "In Linux, what does the command 'chmod 755 file.txt' mean?",
-    "options": ["Read-only file", "Full access to everyone", "Owner can read/write/execute; others read/execute", "File deleted"],
-    "answer": "Owner can read/write/execute; others read/execute",
-    "hint": "7=RWX for owner, 5=R-X for group/others."
-  },
-  {
-    "text": "Which of these is not a characteristic of ROM?",
-    "options": ["Non-volatile", "Can be rewritten many times", "Stores firmware", "Retains data without power"],
-    "answer": "Can be rewritten many times",
-    "hint": "ROM is read-only or rarely rewritable."
-  },
-  {
-    "text": "Who is the CEO of OpenAI (2025)?",
-    "options": ["Sundar Pichai", "Satya Nadella", "Sam Altman", "Elon Musk"],
-    "answer": "Sam Altman",
-    "hint": "He co-founded OpenAI and returned as CEO."
-  },
-  {
-    "text": "Which programming language is mainly used for AI and ML?",
-    "options": ["Python", "C++", "PHP", "Ruby"],
-    "answer": "Python",
-    "hint": "It has rich ML libraries like TensorFlow and PyTorch."
-  },
-  {
-    "text": "Docker is mainly used for:",
-    "options": ["Virtualization", "Containerization", "Compilation", "Automation"],
-    "answer": "Containerization",
-    "hint": "Docker isolates apps using containers."
-  },
-  {
-    "text": "CRUD stands for:",
-    "options": ["Create, Read, Update, Delete", "Copy, Run, Undo, Drop", "Check, Reset, Upload, Delete", "None"],
-    "answer": "Create, Read, Update, Delete",
-    "hint": "These are the four basic database operations."
-  },
-  {
-    "text": "Which company developed the TensorFlow library?",
-    "options": ["OpenAI", "Facebook", "Google", "IBM"],
-    "answer": "Google",
-    "hint": "TensorFlow is developed and maintained by Google Brain."
-  },
-  {
-    "text": "The Turing Award is equivalent to:",
-    "options": ["Nobel Prize in Computing", "Oscar in AI", "Grammy of Programming", "Pulitzer of IT"],
-    "answer": "Nobel Prize in Computing",
-    "hint": "It’s the highest recognition for computer scientists."
+    "hint": "Low-priority tasks may be indefinitely delayed if high-priority ones keep arriving."
   },
   {
     "text": "Which SQL command is used to extract data from a database?",
@@ -138,82 +73,16 @@
     "hint": "Used to query and retrieve rows from tables."
   },
   {
-    "text": "Which SQL keyword is used to remove duplicate rows from a result set?",
-    "options": ["DISTINCT", "UNIQUE", "FILTER", "DELETE", "SORT"],
-    "answer": "DISTINCT",
-    "hint": "Used after SELECT to get only unique values."
-  },
-  {
-    "text": "Which SQL clause is used to sort the result set in ascending or descending order?",
-    "options": ["GROUP BY", "ORDER BY", "SORT BY", "ARRANGE", "FILTER BY"],
-    "answer": "ORDER BY",
-    "hint": "Default order is ascending unless DESC is used."
-  },
-  {
-    "text": "Which command is used to permanently save changes made in a database?",
-    "options": ["SAVE", "UPDATE", "COMMIT", "STORE", "SAVEPOINT"],
-    "answer": "COMMIT",
-    "hint": "Once executed, changes cannot be rolled back."
-  },
-  {
-    "text": "In SQL, which statement is used to remove a table completely from the database?",
-    "options": ["DELETE TABLE", "DROP TABLE", "REMOVE TABLE", "TRUNCATE TABLE", "CLEAR TABLE"],
-    "answer": "DROP TABLE",
-    "hint": "This deletes the table structure along with data."
-  },
-  {
-    "text": "Which command is used in Git to check the current status of files?",
-    "options": ["git log", "git commit", "git status", "git show", "git check"],
-    "answer": "git status",
-    "hint": "Displays tracked, untracked, and staged files."
-  },
-  {
-    "text": "Which Git command is used to upload local commits to a remote repository?",
-    "options": ["git upload", "git send", "git push", "git merge", "git sync"],
-    "answer": "git push",
-    "hint": "It transfers local changes to a remote branch."
-  },
-  {
-    "text": "Which Git command creates a copy of an existing repository to your local machine?",
-    "options": ["git fork", "git copy", "git clone", "git pull", "git init"],
-    "answer": "git clone",
-    "hint": "Used to make a full local copy of a remote repository."
-  },
-  {
-    "text": "Which Git command is used to record changes in the local repository?",
-    "options": ["git save", "git push", "git commit", "git stage", "git add"],
-    "answer": "git commit",
-    "hint": "Creates a snapshot of staged changes."
-  },
-  {
-    "text": "In Git, which command is used to view the history of commits?",
+    "text": "Which Git command is used to view the history of commits?",
     "options": ["git history", "git commits", "git log", "git show", "git reflog"],
     "answer": "git log",
-    "hint": "Displays commit history in chronological order."
+    "hint": "Displays commit history in reverse chronological order."
   },
   {
-    "text": "Which of the following statements is false about Python lists?",
-    "options": ["Lists are mutable", "Lists can contain different data types", "Lists are stored in contiguous memory", "Lists support indexing"],
-    "answer": "Lists are stored in contiguous memory",
-    "hint": "Python lists store references, not contiguous data."
-  },
-  {
-    "text": "What is the time complexity of Binary Search?",
-    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
-    "answer": "O(log n)",
-    "hint": "Binary search divides the range in half each step."
-  },
-  {
-    "text": "In Java, which concept allows a subclass to provide a specific implementation of a parent method?",
-    "options": ["Overloading", "Overriding", "Abstraction", "Encapsulation"],
-    "answer": "Overriding",
-    "hint": "Method overriding replaces base class behavior."
-  },
-  {
-    "text": "Which SQL clause is used to group rows that have the same values into summary rows?",
-    "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING", "JOIN"],
-    "answer": "GROUP BY",
-    "hint": "Often used with aggregate functions like COUNT() or SUM()."
+    "text": "What is the purpose of the activation function in a neural network?",
+    "options": ["To initialize weights", "To introduce non-linearity", "To normalize inputs", "To prevent overfitting"],
+    "answer": "To introduce non-linearity",
+    "hint": "Without it, the network behaves like a linear model."
   },
   {
     "text": "Which SQL join returns all rows from both tables, matching rows where available?",
@@ -222,34 +91,46 @@
     "hint": "Combines results of both left and right joins."
   },
   {
-    "text": "Which SQL keyword filters rows after grouping is applied?",
-    "options": ["WHERE", "HAVING", "FILTER", "ORDER BY", "LIMIT"],
-    "answer": "HAVING",
-    "hint": "It is used with GROUP BY to apply conditions on aggregates."
+    "text": "Which company developed the TensorFlow library?",
+    "options": ["OpenAI", "Facebook", "Google", "IBM"],
+    "answer": "Google",
+    "hint": "TensorFlow is developed and maintained by Brain."
   },
   {
-    "text": "In Git, which command is used to combine changes from one branch into another?",
+    "text": "Which layer of the OSI model is responsible for routing?",
+    "options": ["Transport", "Network", "Session", "Data Link"],
+    "answer": "Network",
+    "hint": "This layer contains data packets and address."
+  },
+  {
+    "text": "Which Git command is used to combine changes from one branch into another?",
     "options": ["git branch", "git push", "git merge", "git pull", "git combine"],
     "answer": "git merge",
     "hint": "Used to integrate changes from another branch."
   },
   {
-    "text": "Which Git command is used to create a new branch?",
-    "options": ["git make-branch", "git branch", "git create", "git new", "git fork"],
-    "answer": "git branch",
-    "hint": "It creates a new line of development."
+    "text": "Which AI concept refers to a model memorizing training data but failing on new data?",
+    "options": ["Underfitting", "Overfitting", "Generalization", "Regularization"],
+    "answer": "Overfitting",
+    "hint": "Model performs well on training data but poorly on unseen data."
   },
   {
-    "text": "In Artificial Intelligence, what does 'machine learning' primarily focus on?",
-    "options": ["Manually coding rules", "Learning from data", "Simulating emotions", "Hardware acceleration", "Image compression"],
-    "answer": "Learning from data",
-    "hint": "Algorithms improve automatically through experience."
+    "text": "Which SQL keyword removes duplicate rows from a result set?",
+    "options": ["DISTINCT", "UNIQUE", "FILTER", "DELETE", "SORT"],
+    "answer": "DISTINCT",
+    "hint": "Used after SELECT to get only unique values."
   },
   {
-    "text": "Which type of learning uses labeled data to train models?",
-    "options": ["Unsupervised Learning", "Supervised Learning", "Reinforcement Learning", "Self-Learning", "Transfer Learning"],
-    "answer": "Supervised Learning",
-    "hint": "Data comes with input-output pairs."
+    "text": "Which command is used in Git to check the current status of files?",
+    "options": ["git log", "git commit", "git status", "git show", "git check"],
+    "answer": "git status",
+    "hint": "Displays tracked, untracked, and staged files."
+  },
+  {
+    "text": "What is RAID used for?",
+    "options": ["Data compression", "Data redundancy & performance", "CPU scheduling", "Encryption"],
+    "answer": "Data redundancy & performance",
+    "hint": "RAID combines drives for speed and fault tolerance."
   },
   {
     "text": "Which AI subfield focuses on enabling computers to understand human language?",
@@ -258,28 +139,53 @@
     "hint": "Used in chatbots and translation systems."
   },
   {
-    "text": "In machine learning, what is 'overfitting'?",
-    "options": ["Model performs poorly on both training and test data", "Model memorizes training data but fails on new data", "Model runs too fast", "Model ignores input features", "Model performs well on unseen data"],
-    "answer": "Model memorizes training data but fails on new data",
-    "hint": "It means the model lacks generalization."
+    "text": "What does the Java code `int x = 5; System.out.println(x++ + ++x);` print?",
+    "options": ["10", "11", "12", "13"],
+    "answer": "12",
+    "hint": "Post-increment happens after use; pre-increment before use."
   },
   {
-    "text": "Which AI technique allows an agent to learn by interacting with its environment and receiving rewards or penalties?",
-    "options": ["Supervised Learning", "Reinforcement Learning", "Deep Learning", "Clustering", "Transfer Learning"],
-    "answer": "Reinforcement Learning",
-    "hint": "Learning through trial and feedback loop."
+    "text": "Which Git command is used to stage changes before committing?",
+    "options": ["git stage", "git add", "git commit", "git push"],
+    "answer": "git add",
+    "hint": "Prepares files for commit by adding them to the staging area."
   },
   {
-    "text": "Which type of neural network is mainly used for image recognition tasks?",
-    "options": ["Recurrent Neural Network (RNN)", "Convolutional Neural Network (CNN)", "Feedforward Neural Network", "Generative Adversarial Network (GAN)", "Transformer"],
-    "answer": "Convolutional Neural Network (CNN)",
-    "hint": "Uses filters and feature maps to detect patterns in images."
+    "text": "What is the main function of dropout in deep learning?",
+    "options": ["Speed up training", "Increase learning rate", "Prevent overfitting", "Reduce dataset size", "Add non-linearity"],
+    "answer": "Prevent overfitting",
+    "hint": "Randomly ignores some neurons during training to improve generalization."
   },
   {
-    "text": "What is the purpose of the activation function in a neural network?",
-    "options": ["To initialize weights", "To introduce non-linearity", "To normalize inputs", "To prevent overfitting", "To reduce loss"],
-    "answer": "To introduce non-linearity",
-    "hint": "Without it, the network behaves like a linear model."
+    "text": "Which Git command creates a new local repository?",
+    "options": ["git clone", "git fork", "git init", "git create"],
+    "answer": "git init",
+    "hint": "Initializes a new Git repository in the current directory."
+  },
+  {
+    "text": "Which SQL statement is used to permanently save changes?",
+    "options": ["SAVE", "UPDATE", "COMMIT", "STORE", "SAVEPOINT"],
+    "answer": "COMMIT",
+    "hint": "Once executed, changes cannot be rolled back."
+  },
+  {
+    "text": "Which AI concept refers to learning from labeled data?",
+    "options": ["Unsupervised Learning", "Reinforcement Learning", "Supervised Learning", "Transfer Learning"],
+    "answer": "Supervised Learning",
+    "hint": "Training data includes both inputs and expected outputs."
+  },
+  {
+    "text": "Which Git command is used to fetch and merge changes from a remote repository?",
+    "options": ["git fetch", "git pull", "git clone", "git merge"],
+    "answer": "git pull",
+    "hint": "Combines fetch and merge in one step."
+  },
+
+  {
+    "text": "Which programming language is mainly used for AI and ML?",
+    "options": ["Python", "C++", "PHP", "Ruby"],
+    "answer": "Python",
+    "hint": "It has rich ML libraries like TensorFlow and PyTorch."
   },
   {
     "text": "Which algorithm is commonly used to update weights in deep learning models?",
@@ -288,16 +194,238 @@
     "hint": "It minimizes the loss function by adjusting weights step by step."
   },
   {
-    "text": "What is the main function of dropout in deep learning?",
-    "options": ["Speed up training", "Increase learning rate", "Prevent overfitting", "Reduce dataset size", "Add non-linearity"],
-    "answer": "Prevent overfitting",
-    "hint": "It randomly ignores some neurons during training to improve generalization."
+    "text": "What will this print?\n\nprint(0.1 + 0.2 == 0.3)",
+    "options": ["True", "False", "Error", "0.3"],
+    "answer": "False",
+    "hint": "Floating point arithmetic introduces precision errors."
   },
   {
-    "text": "In a neural network, what does each neuron output after applying weights and bias?",
-    "options": ["Raw input", "Loss value", "Activation value", "Gradient value", "Weight matrix"],
-    "answer": "Activation value",
-    "hint": "It’s the transformed value passed to the next layer."
+    "text": "Which SQL clause filters rows based on a condition?",
+    "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
+    "answer": "WHERE",
+    "hint": "Used to filter rows before grouping or aggregation."
+  },
+  {
+    "text": "Which Git command creates a copy of a remote repository?",
+    "options": ["git fork", "git copy", "git clone", "git pull", "git init"],
+    "answer": "git clone",
+    "hint": "Used to make a full local copy of a remote repository."
+  },
+  {
+    "text": "Which type of neural network is mainly used for image recognition tasks?",
+    "options": ["RNN", "CNN", "Feedforward", "GAN", "Transformer"],
+    "answer": "CNN",
+    "hint": "Uses filters and feature maps to detect patterns in images."
+  },
+  {
+    "text": "Which SQL keyword is used to sort the result set?",
+    "options": ["GROUP BY", "ORDER BY", "SORT", "FILTER"],
+    "answer": "ORDER BY",
+    "hint": "Used to arrange rows in ascending or descending order."
+  },
+  {
+    "text": "Which Git command shows changes between commits?",
+    "options": ["git diff", "git log", "git status", "git show"],
+    "answer": "git diff",
+    "hint": "Displays line-by-line differences between commits or branches."
+  },
+  {
+    "text": "Which AI concept refers to transferring knowledge from one task to another?",
+    "options": ["Supervised Learning", "Transfer Learning", "Clustering", "Reinforcement Learning"],
+    "answer": "Transfer Learning",
+    "hint": "Uses pre-trained models to accelerate learning on new tasks."
+  },
+  {
+    "text": "Which SQL command is used to modify existing records?",
+    "options": ["INSERT", "UPDATE", "ALTER", "MODIFY"],
+    "answer": "UPDATE",
+    "hint": "Changes values in existing rows."
+  },
+
+  {
+    "text": "Which Git command is used to permanently delete a branch?",
+    "options": ["git remove", "git delete", "git branch -d", "git erase"],
+    "answer": "git branch -d",
+    "hint": "Used to delete a local branch safely."
+  },
+  {
+    "text": "Which SQL clause is used to filter grouped rows?",
+    "options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
+    "answer": "HAVING",
+    "hint": "Used after GROUP BY to filter aggregated results."
+  },
+  {
+    "text": "Which AI concept refers to the ability of a model to perform well on unseen data?",
+    "options": ["Overfitting", "Underfitting", "Generalization", "Regularization"],
+    "answer": "Generalization",
+    "hint": "The model adapts beyond the training set."
+  },
+  {
+    "text": "Which Git command shows the most recent commits and their hashes?",
+    "options": ["git show", "git log", "git reflog", "git status"],
+    "answer": "git log",
+    "hint": "Displays commit history with metadata."
+  },
+  {
+    "text": "Which SQL keyword is used to add a new row to a table?",
+    "options": ["INSERT", "UPDATE", "ADD", "APPEND"],
+    "answer": "INSERT",
+    "hint": "Adds new data into a table."
+  },
+  {
+    "text": "Which neural network type is best suited for sequential data?",
+    "options": ["CNN", "RNN", "GAN", "Transformer"],
+    "answer": "RNN",
+    "hint": "Maintains memory across time steps."
+  },
+  {
+    "text": "Which Git command lists all branches in the repository?",
+    "options": ["git list", "git branches", "git branch", "git show-branch"],
+    "answer": "git branch",
+    "hint": "Displays all local branches."
+  },
+  {
+    "text": "Which SQL command is used to remove all rows from a table but keep its structure?",
+    "options": ["DELETE", "DROP", "TRUNCATE", "CLEAR"],
+    "answer": "TRUNCATE",
+    "hint": "Deletes all rows quickly without logging each deletion."
+  },
+  {
+    "text": "Which AI concept involves grouping data without labels?",
+    "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Transfer Learning"],
+    "answer": "Unsupervised Learning",
+    "hint": "No predefined output — the model finds structure."
+  },
+  {
+    "text": "Which Git command is used to undo the last commit but keep changes?",
+    "options": ["git revert", "git reset --soft HEAD~1", "git undo", "git rollback"],
+    "answer": "git reset --soft HEAD~1",
+    "hint": "Removes the commit but preserves staged changes."
+  },
+
+  {
+    "text": "Which SQL clause is used to rename a column in the result set?",
+    "options": ["AS", "RENAME", "CHANGE", "MODIFY"],
+    "answer": "AS",
+    "hint": "Used to assign an alias to a column or table."
+  },
+  {
+    "text": "Which Git command shows the changes staged for the next commit?",
+    "options": ["git status", "git diff --cached", "git log", "git show"],
+    "answer": "git diff --cached",
+    "hint": "Displays differences between staged files and the last commit."
+  },
+  {
+    "text": "Which AI concept refers to reducing model complexity to prevent overfitting?",
+    "options": ["Regularization", "Normalization", "Generalization", "Dropout"],
+    "answer": "Regularization",
+    "hint": "Adds penalties to the loss function to discourage complexity."
+  },
+  {
+    "text": "Which SQL command is used to remove specific rows from a table?",
+    "options": ["DELETE", "DROP", "REMOVE", "TRUNCATE"],
+    "answer": "DELETE",
+    "hint": "Deletes rows based on a WHERE condition."
+  },
+  {
+    "text": "Which Git command is used to revert a commit by creating a new one?",
+    "options": ["git reset", "git revert", "git undo", "git rollback"],
+    "answer": "git revert",
+    "hint": "Creates a new commit that undoes the changes of a previous one."
+  },
+  {
+    "text": "Which SQL clause is used to filter rows before grouping?",
+    "options": ["HAVING", "WHERE", "GROUP BY", "ORDER BY"],
+    "answer": "WHERE",
+    "hint": "Filters rows before aggregation occurs."
+  },
+  {
+    "text": "Which Git command is used to view the content of a specific commit?",
+    "options": ["git show", "git log", "git diff", "git status"],
+    "answer": "git show",
+    "hint": "Displays commit details including changes and metadata."
+  },
+  {
+    "text": "Which SQL function returns the number of rows in a result set?",
+    "options": ["SUM()", "COUNT()", "TOTAL()", "SIZE()"],
+    "answer": "COUNT()",
+    "hint": "Used to count rows matching a condition."
+  },
+  {
+    "text": "Which Git command is used to discard changes in the working directory?",
+    "options": ["git reset", "git clean", "git revert", "git stash"],
+    "answer": "git clean",
+    "hint": "Removes untracked files from the working directory."
+  },
+  {
+    "text": "Which SQL clause is used to combine rows from two tables based on a condition?",
+    "options": ["JOIN", "MERGE", "UNION", "GROUP BY"],
+    "answer": "JOIN",
+    "hint": "Combines rows with matching values in specified columns."
+  },
+
+  {
+    "text": "Which Git command is used to temporarily save changes without committing?",
+    "options": ["git stash", "git save", "git hold", "git suspend"],
+    "answer": "git stash",
+    "hint": "Stores changes for later application without committing."
+  },
+  {
+    "text": "Which SQL clause is used to combine result sets and remove duplicates?",
+    "options": ["JOIN", "UNION", "MERGE", "GROUP BY"],
+    "answer": "UNION",
+    "hint": "Combines rows from multiple SELECTs and removes duplicates."
+  },
+  {
+    "text": "Which AI concept refers to reducing input dimensions while preserving structure?",
+    "options": ["Regularization", "Dimensionality Reduction", "Normalization", "Clustering"],
+    "answer": "Dimensionality Reduction",
+    "hint": "Techniques like PCA reduce features while retaining patterns."
+  },
+  {
+    "text": "Which Git command is used to apply stashed changes?",
+    "options": ["git apply", "git stash pop", "git merge", "git pull"],
+    "answer": "git stash pop",
+    "hint": "Restores the most recent stash and removes it from the stash list."
+  },
+  {
+    "text": "Which SQL clause is used to limit the number of rows returned?",
+    "options": ["LIMIT", "TOP", "ROWNUM", "MAX"],
+    "answer": "LIMIT",
+    "hint": "Restricts the number of rows in the result set."
+  },
+  {
+    "text": "Which AI concept refers to adjusting weights using error gradients?",
+    "options": ["Backpropagation", "Dropout", "Regularization", "Momentum"],
+    "answer": "Backpropagation",
+    "hint": "Uses gradient descent to update weights layer by layer."
+  },
+  {
+    "text": "Which Git command shows the list of stashed changes?",
+    "options": ["git stash list", "git stash show", "git log stash", "git stash status"],
+    "answer": "git stash list",
+    "hint": "Displays all saved stash entries."
+  },
+  {
+    "text": "Which SQL clause is used to filter rows after aggregation?",
+    "options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
+    "answer": "HAVING",
+    "hint": "Used to filter grouped results based on aggregate conditions."
+  },
+  {
+    "text": "Which Git command is used to discard all local changes?",
+    "options": ["git reset --hard", "git clean -fd", "git revert HEAD", "git stash drop"],
+    "answer": "git reset --hard",
+    "hint": "Resets working directory and index to last commit."
+  },
+  {
+    "text": "Which AI concept refers to training a model on one task and adapting it to another?",
+    "options": ["Transfer Learning", "Supervised Learning", "Reinforcement Learning", "Meta Learning"],
+    "answer": "Transfer Learning",
+    "hint": "Uses knowledge from one domain to improve performance in another."
   }
 ]
+
+
+
 

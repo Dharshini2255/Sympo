@@ -21,7 +21,7 @@ const Quiz = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const shuffled = [...rawQuestions].sort(() => 0.5 - Math.random()).slice(0, 15);
+    const shuffled = [...rawQuestions].sort(() => 0.5 - Math.random()).slice(0, 25);
     setQuestions(shuffled);
   }, []);
 
